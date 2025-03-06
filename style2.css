@@ -1,0 +1,93 @@
+/* Header Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: #6b4226;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f3e9dc;
+}
+
+.about-container {
+    max-width: 50%;
+}
+
+.about-container h1 {
+    font-size: 2.5em;
+    color: #6b4226;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    color: #8c6c50;
+    margin-bottom: 15px;
+}
+
+.about-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Team Section */
+.team {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.team h2 {
+    font-size: 2em;
+    color: #6b4226;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.member h3 {
+    margin-top: 10px;
+    color: #6b4226;
+}
+
+.member p {
+    color: #8c6c50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #6b4226;
+    color: white;
+}
